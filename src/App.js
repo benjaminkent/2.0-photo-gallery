@@ -39,46 +39,44 @@ class App extends Component {
                 </li>
               </ul>
             </nav>
-            <div className="columns is-mobile">
+            <h3 className="title">{Data.pandas.title}</h3>
+            <h4 className="subtitle">{Data.pandas.description}</h4>
+            <div className="columns is-multiline">
               <div className="column">
                 <div className="card">
                   <div className="card-content">
-                    <div className="content">
-                      <h2>
-                        <a>{Data.pandas.title}</a>
-                      </h2>
+                    <div className="card-image">
+                      <figure className="image">
+                        <a>
+                          <img
+                            src={Data.pandas.photos[0].imageURL}
+                            alt="Panda Waving"
+                          />
+                        </a>
+                        <figcaption>
+                          <a>{Data.pandas.photos[0].title}</a>
+                        </figcaption>
+                      </figure>
                     </div>
-
-                    <div className="content">{Data.pandas.description}</div>
-                  </div>
-                  <div className="card-image">
-                    <figure className="image">
-                      <img
-                        src={Data.pandas.photos[0].imageURL}
-                        alt="Panda Bear"
-                      />
-                    </figure>
                   </div>
                 </div>
               </div>
               <div className="column">
                 <div className="card">
                   <div className="card-content">
-                    <div className="content">
-                      <h2>
-                        <a>{Data.miniatures.title}</a>
-                      </h2>
+                    <div className="card-image">
+                      <figure className="image">
+                        <a>
+                          <img
+                            src={Data.pandas.photos[1].imageURL}
+                            alt="Panda Waving"
+                          />
+                        </a>
+                        <figcaption>
+                          <a>{Data.pandas.photos[1].title}</a>
+                        </figcaption>
+                      </figure>
                     </div>
-
-                    <div className="content">{Data.miniatures.description}</div>
-                  </div>
-                  <div className="card-image">
-                    <figure className="image">
-                      <img
-                        src={Data.miniatures.photos[0].imageURL}
-                        alt="Panda Bear"
-                      />
-                    </figure>
                   </div>
                 </div>
               </div>
