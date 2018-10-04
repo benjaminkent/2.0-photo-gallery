@@ -20,7 +20,7 @@ class App extends Component {
           </div>
         </section>
         {/* <CategoryList /> */}
-        <section className="section">
+        {/* <section className="section">
           <div className="container">
             <nav className="breadcrumb" aria-label="breadcrumbs">
               <ul>
@@ -82,7 +82,7 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     )
   }
