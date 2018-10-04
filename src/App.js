@@ -19,23 +19,7 @@ class App extends Component {
             </div>
           </div>
         </section>
-        <section className="section">
-          <div className="container">
-            <nav className="breadcrumb" aria-label="breadcrumbs">
-              <ul>
-                <li className="is-active">
-                  <a href="#">
-                    <span className="icon is-small">
-                      <i className="fas fa-home" aria-hidden="true" />
-                    </span>
-                    <span>Home</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <CategoryList />
-          </div>
-        </section>
+        <CategoryList />
       </div>
     )
   }
