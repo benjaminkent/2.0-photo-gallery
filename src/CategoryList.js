@@ -19,50 +19,32 @@ class CategoryList extends Component {
                 </li>
               </ul>
             </nav>
-            <div className="columns is-mobile">
-              <div className="column">
-                <div className="card">
-                  <div className="card-content">
-                    <div className="content">
-                      <h2>
-                        <a>{Data.pandas.title}</a>
-                      </h2>
+            {Object.keys(Data).map(category => {
+              return (
+                <div className="columns is-mobile">
+                  <div className="column">
+                    <div className="card">
+                      <div className="card-content">
+                        <div className="content">
+                          <h2>
+                            <a>{category.title}</a>
+                          </h2>
+                        </div>
+                        <div className="content">{category.description}</div>
+                      </div>
+                      <div className="card-image">
+                        <figure className="image">
+                          <img
+                            src={category.photos[0].imageURL}
+                            alt="Panda Bear"
+                          />
+                        </figure>
+                      </div>
                     </div>
-
-                    <div className="content">{Data.pandas.description}</div>
-                  </div>
-                  <div className="card-image">
-                    <figure className="image">
-                      <img
-                        src={Data.pandas.photos[0].imageURL}
-                        alt="Panda Bear"
-                      />
-                    </figure>
                   </div>
                 </div>
-              </div>
-              <div className="column">
-                <div className="card">
-                  <div className="card-content">
-                    <div className="content">
-                      <h2>
-                        <a>{Data.miniatures.title}</a>
-                      </h2>
-                    </div>
-
-                    <div className="content">{Data.miniatures.description}</div>
-                  </div>
-                  <div className="card-image">
-                    <figure className="image">
-                      <img
-                        src={Data.miniatures.photos[0].imageURL}
-                        alt="Panda Bear"
-                      />
-                    </figure>
-                  </div>
-                </div>
-              </div>
-            </div>
+              )
+            })}
           </div>
         </section>
       </>
