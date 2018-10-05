@@ -1,33 +1,85 @@
 {
-  "pandas": {
-    "title": "Panda Bears",
-    "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+  "guitars": {
+    "title": "Guitars",
+    "description": "Playing guitar is a remarkably difficult skill to master, but is fun to try no matter the skill level.",
     "photos": [
       {
-        "title": "Panda Waving",
-        "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
-        "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        "title": "Electric Guitar",
+        "imageURL": "https://images.unsplash.com/photo-1520166012956-add9ba0835cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1dc4c415c3096ec0d707eb702f9361ad&auto=format&fit=crop&w=634&q=80",
+        "sourceURL": "https://unsplash.com/photos/71k2FbrLMjA"
       },
       {
-        "title": "Großer Panda im Ocean Park, Hongkong",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/2560px-Grosser_Panda.JPG",
-        "sourceURL": "https://en.wikipedia.org/wiki/Giant_panda"
+        "title": "Man Playing Guitar",
+        "imageURL": "https://images.unsplash.com/photo-1509170051686-83f8efd35a31?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7273345389cf5e406a6d954abf553cee&auto=format&fit=crop&w=1050&q=80",
+        "sourceURL": "https://unsplash.com/photos/0KyGJK2GlJI"
+      },
+      {
+        "title": "Woman Holding a Guitar",
+        "imageURL": "https://images.unsplash.com/photo-1524650359799-842906ca1c06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=743a655cbb8c62af3cc4af24bb315f11&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/photos/Wt7XT1R6sjU"
       }
     ]
   },
-  "miniatures": {
-    "title": "Miniature Painting",
-    "description": "I enjoy painting miniatures. I've only been painting for about 6-months, here's some of my work.",
+  "kiteboarding": {
+    "title": "Kiteboarding",
+    "description": "Kiteboarding is a thrilling hobby that only requires a kite, a board, and some courage!",
     "photos": [
       {
-        "title": "Blood Rage, Ram Clan",
-        "imageURL": "https://instagram.ftpf1-1.fna.fbcdn.net/vp/ac13de8676b9e7d7b3a4f1aaf38a9a55/5C3728A2/t51.2885-15/e35/32203464_178578342778306_8009127367152762880_n.jpg",
-        "sourceURL": "https://www.instagram.com/p/BjRKLqYh4gK/?taken-by=ambethia"
+        "title": "Kiteboarding on Waves",
+        "imageURL": "https://images.unsplash.com/photo-1483083850282-fc55aec90f56?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=54ad4952d99b540be785380c95110de6&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/photos/waBKWR96IzE"
       },
       {
-        "title": "Cormac the Druid, work in progress",
-        "imageURL": "https://instagram.ftpf1-1.fna.fbcdn.net/vp/fbe274a10d9f125721b996b1c900a38a/5BFA5B76/t51.2885-15/e35/37190638_643058652730656_5948932439748378624_n.jpg",
-        "sourceURL": "https://www.instagram.com/p/Bl09Fg3jM54/?taken-by=ambethia"
+        "title": "Man Getting Some Air on a Kiteboard",
+        "imageURL": "https://images.unsplash.com/photo-1504277707544-c96d90a1c26b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bcdb52a0fe3822c36862b27844e98470&auto=format&fit=crop&w=1050&q=80",
+        "sourceURL": "https://unsplash.com/photos/SZvQOOsE78M"
+      },
+      {
+        "title": "A Kiteboard in the Process of Being Set Up",
+        "imageURL": "https://images.unsplash.com/photo-1530091902417-c9c5d9b0bce4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9621115afa1dfdd15baeb7ff06ff23f5&auto=format&fit=crop&w=700&q=80",
+        "sourceURL": "https://unsplash.com/photos/MgUzS7-9ko4"
+      }
+    ]
+  },
+  "elephants": {
+    "title": "Elephants",
+    "description": "Elephants are extremely intelligent animals and can be found through Africa and Asia.",
+    "photos": [
+      {
+        "title": "Elephant Playing",
+        "imageURL": "https://images.unsplash.com/photo-1535343153212-73c11623bd06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=acf27b4c86ac748041ae254ca5a7e700&auto=format&fit=crop&w=661&q=80",
+        "sourceURL": "https://unsplash.com/photos/fWkx9VRYhLg"
+      },
+      {
+        "title": "Baby Elephant",
+        "imageURL": "https://images.unsplash.com/photo-1526226060519-126d75eaa5e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b5fc31a88f684f220951d51751ef8597&auto=format&fit=crop&w=1050&q=80",
+        "sourceURL": "https://unsplash.com/photos/-9JAqVxg3vs"
+      },
+      {
+        "title": "Herd of Elephants Walking",
+        "imageURL": "https://images.unsplash.com/photo-1525535681282-55d47862f549?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b8fbcab27b9233fa2e37cb31546d3e1&auto=format&fit=crop&w=1050&q=80",
+        "sourceURL": "https://unsplash.com/photos/xQve4uMsdsQ"
+      }
+    ]
+  },
+  "halloween": {
+    "title": "Halloween",
+    "description": "My fiancée's favorite holiday, Halloween is full of tricks, treats, and spookiness.",
+    "photos": [
+      {
+        "title": "Spooky Pumpkin",
+        "imageURL": "https://images.unsplash.com/photo-1509085670796-d06d1de77ed4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4259b2ef82c2b4343d91e1fcc7b3dec4&auto=format&fit=crop&w=1050&q=80",
+        "sourceURL": "https://unsplash.com/photos/yJz6OSS_63c"
+      },
+      {
+        "title": "Girl with Face Painted",
+        "imageURL": "https://images.unsplash.com/photo-1508901706-0f1b882dc1f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=474f089a8cb9315a469006b2e76cacd1&auto=format&fit=crop&w=925&q=80",
+        "sourceURL": "https://unsplash.com/photos/kTBJmeRbAbo"
+      },
+      {
+        "title": "Cat in a Graveyard",
+        "imageURL": "https://images.unsplash.com/photo-1521992342639-069afdd3ef4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9c3f23debb2b342dad1ec4052c6d04b8&auto=format&fit=crop&w=634&q=80",
+        "sourceURL": "https://unsplash.com/photos/rgcJWAxaubg"
       }
     ]
   }

@@ -21,7 +21,7 @@ class CategoryList extends Component {
                 </li>
               </ul>
             </nav>
-            <div className="columns is-mobile">
+            <div className="columns is-multiline">
               {Object.keys(Data).map(category => {
                 return (
                   <div className="column">
