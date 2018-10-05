@@ -1,43 +1,50 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+
 import Data from './Data.json'
 
 class PhotoList extends Component {
   render() {
+    const category = this.props.match.params.category
+    const title = Data[category].title
+    const description = Data[category].description
     return (
       <section className="section">
         <div className="container">
           <nav className="breadcrumb" aria-label="breadcrumbs">
             <ul>
               <li>
-                <a href="#">
+                <Link to="/">
                   <span className="icon is-small">
                     <i className="fas fa-home" aria-hidden="true" />
                   </span>
                   <span>Home</span>
-                </a>
+                </Link>
               </li>
               <li className="is-active">
                 <a href="#">
-                  <span>{Data['pandas'].title}</span>
+                  <span>{title}</span>
                 </a>
               </li>
             </ul>
           </nav>
-          <h3 className="title">{Data['pandas'].title}</h3>
-          <h4 className="subtitle">{Data['pandas'].description}</h4>
+          <h3 className="title">{title}</h3>
+          <h4 className="subtitle">{description}</h4>
           <div className="columns is-multiline">
-            {Data['pandas'].photos.map(photo => {
+            {Data[category].photos.map((photo, index) => {
               return (
                 <div className="column">
                   <div className="card">
                     <div className="card-content">
                       <div className="card-image">
                         <figure className="image">
-                          <a>
+                          <Link to={`/${category}/${index}`}>
                             <img src={photo.imageURL} alt="Panda Waving" />
-                          </a>
+                          </Link>
                           <figcaption>
-                            <a>{photo.title}</a>
+                            <Link to={`/${category}/${index}`}>
+                              {photo.title}
+                            </Link>
                           </figcaption>
                         </figure>
                       </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+
 import Data from './Data.json'
 
 class CategoryList extends Component {
@@ -27,7 +29,9 @@ class CategoryList extends Component {
                       <div className="card-content">
                         <div className="content">
                           <h2>
-                            <a>{Data[category].title}</a>
+                            <Link to={`/${category}`}>
+                              {Data[category].title}
+                            </Link>
                           </h2>
                         </div>
                         <div className="content">
@@ -36,10 +40,12 @@ class CategoryList extends Component {
                       </div>
                       <div className="card-image">
                         <figure className="image">
-                          <img
-                            src={Data[category].photos[0].imageURL}
-                            alt="Panda Bear"
-                          />
+                          <Link to={`/${category}`}>
+                            <img
+                              src={Data[category].photos[0].imageURL}
+                              alt="Panda Bear"
+                            />
+                          </Link>
                         </figure>
                       </div>
                     </div>
