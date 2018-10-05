@@ -19,32 +19,34 @@ class CategoryList extends Component {
                 </li>
               </ul>
             </nav>
-            {Object.keys(Data).map(category => {
-              return (
-                <div className="columns is-mobile">
+            <div className="columns is-mobile">
+              {Object.keys(Data).map(category => {
+                return (
                   <div className="column">
                     <div className="card">
                       <div className="card-content">
                         <div className="content">
                           <h2>
-                            <a>{category.title}</a>
+                            <a>{Data[category].title}</a>
                           </h2>
                         </div>
-                        <div className="content">{category.description}</div>
+                        <div className="content">
+                          {Data[category].description}
+                        </div>
                       </div>
                       <div className="card-image">
                         <figure className="image">
                           <img
-                            src={category.photos[0].imageURL}
+                            src={Data[category].photos[0].imageURL}
                             alt="Panda Bear"
                           />
                         </figure>
                       </div>
                     </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
           </div>
         </section>
       </>

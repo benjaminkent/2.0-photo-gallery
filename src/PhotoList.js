@@ -18,52 +18,34 @@ class PhotoList extends Component {
               </li>
               <li className="is-active">
                 <a href="#">
-                  <span>{Data.pandas.title}</span>
+                  <span>{Data['pandas'].title}</span>
                 </a>
               </li>
             </ul>
           </nav>
-          <h3 className="title">{Data.pandas.title}</h3>
-          <h4 className="subtitle">{Data.pandas.description}</h4>
+          <h3 className="title">{Data['pandas'].title}</h3>
+          <h4 className="subtitle">{Data['pandas'].description}</h4>
           <div className="columns is-multiline">
-            <div className="column">
-              <div className="card">
-                <div className="card-content">
-                  <div className="card-image">
-                    <figure className="image">
-                      <a>
-                        <img
-                          src={Data.pandas.photos[0].imageURL}
-                          alt="Panda Waving"
-                        />
-                      </a>
-                      <figcaption>
-                        <a>{Data.pandas.photos[0].title}</a>
-                      </figcaption>
-                    </figure>
+            {Data['pandas'].photos.map(photo => {
+              return (
+                <div className="column">
+                  <div className="card">
+                    <div className="card-content">
+                      <div className="card-image">
+                        <figure className="image">
+                          <a>
+                            <img src={photo.imageURL} alt="Panda Waving" />
+                          </a>
+                          <figcaption>
+                            <a>{photo.title}</a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="column">
-              <div className="card">
-                <div className="card-content">
-                  <div className="card-image">
-                    <figure className="image">
-                      <a>
-                        <img
-                          src={Data.pandas.photos[1].imageURL}
-                          alt="Panda Waving"
-                        />
-                      </a>
-                      <figcaption>
-                        <a>{Data.pandas.photos[1].title}</a>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </div>
-              </div>
-            </div>
+              )
+            })}
           </div>
         </div>
       </section>

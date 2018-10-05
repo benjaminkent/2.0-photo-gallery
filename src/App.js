@@ -21,8 +21,8 @@ class App extends Component {
             </div>
           </div>
         </section>
-        <CategoryList />
-        <PhotoList />
+        {/* <CategoryList /> */}
+        {/* <PhotoList /> */}
         <PhotoDetail />
       </div>
     )
