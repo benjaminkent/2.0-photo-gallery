@@ -8,6 +8,8 @@ class PhotoList extends Component {
     const category = this.props.match.params.category
     const title = Data[category].title
     const description = Data[category].description
+    console.log(category)
+
     return (
       <section className="section">
         <div className="container">

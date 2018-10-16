@@ -5,8 +5,8 @@ import Data from './Data.json'
 
 class PhotoDetail extends Component {
   render() {
-    const category = this.props.match.params.category
-    const index = this.props.match.params.index
+    const { category, index } = this.props.match.params
+
     const photoTitle = Data[category].photos[index].title
     const imageURL = Data[category].photos[index].imageURL
     const sourceURL = Data[category].photos[index].sourceURL
