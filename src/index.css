@@ -1,0 +1,14 @@
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 3rem 1rem;
+  color: black;
+}
+
+.fa-heart {
+  color: #ed4040;
+}
+
+.footer p {
+  margin: 0 0 3px 0;
+}

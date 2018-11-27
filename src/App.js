@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Data from './Data.json'
 import './App.css'
 import CategoryList from './CategoryList'
 import PhotoList from './PhotoList'
 import PhotoDetail from './PhotoDetail'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
@@ -32,6 +32,7 @@ class App extends Component {
             <PhotoList />
             <PhotoDetail />
           </Switch>
+          <Footer />
         </div>
       </Router>
     )
